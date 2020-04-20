@@ -1,0 +1,25 @@
+# More info here: http://www.ifs.tuwien.ac.at/dm/somtoolbox/somtoolbox-guide.html
+# \\ for Windows.
+# / for MACOS&Unix
+workingDirectory=.\\
+outputDirectory=.\\maps\\satimage
+namePrefix=satimage
+vectorFileName=satimage.vec
+sparseData=no
+isNormalized=yes
+templateFileName=satimage.tv
+#cacheSize=
+
+randomSeed=17
+# Depends on ratio of number of input data and map units
+# Data/units -> „finest resolution“ to be expected on average
+# e.g. on average 10, 100, etc. data points per unit
+xSize=26
+ySize=26
+learnRate=0.75
+# the neighbourhood size (sigma / hc_i)
+sigma=12
+#tau=
+#metricName=
+# should be larger than the number of vectors in vectorFile (recommended: 5*<num_of_vectors>)
+numIterations=5000

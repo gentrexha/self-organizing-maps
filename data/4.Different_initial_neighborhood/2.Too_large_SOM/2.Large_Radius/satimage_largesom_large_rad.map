@@ -1,0 +1,37 @@
+$TYPE som
+$GRID_TOPOLOGY planar
+$GRID_LAYOUT rectangular
+$XDIM 80
+$YDIM 80
+$ZDIM 1
+$VEC_DIM 36
+$STORAGE_DATE 12/3/18 8:23 PM
+$TRAINING_TIME 
+$LEARNRATE_TYPE exponential
+$LEARNRATE_INIT 0.75
+$NEIGHBORHOOD_TYPE exponential
+$NEIGHBORHOOD_INIT 0.1
+$RAND_INIT 17
+$ITERATIONS_TOTAL 32150
+$NR_TRAINVEC_TOTAL 6430
+$ADAPTIVE_COORDINATES_THRESHOLD 
+$VEC_NORMALIZED false
+$QUANTERROR_MAP 96.76861878080906
+$QUANTERROR_VEC 0.01504955190992365
+$URL_TRAINING_VEC /Users/ilirosmanaj/Desktop/Google Drive/Data Science/11. Self-Organizing Systems/Assignments/SOM/somtoolbox/../som-exercise-1/data/4.Different_initial_neighborhood/2.Too_large_SOM/2.Large_Radius/data/satimage.vec
+$URL_TRAINING_VEC_DESCR 
+$URL_WEIGHT_VEC /Users/ilirosmanaj/Desktop/Google Drive/Data Science/11. Self-Organizing Systems/Assignments/SOM/somtoolbox/../som-exercise-1/data/4.Different_initial_neighborhood/2.Too_large_SOM/2.Large_Radius/./satimage_largesom_large_rad.wgt
+$URL_QUANTERR_MAP 
+$URL_MAPPED_INPUT_VEC 
+$URL_MAPPED_INPUT_VEC_DESCR 
+$URL_UNIT_DESCR /Users/ilirosmanaj/Desktop/Google Drive/Data Science/11. Self-Organizing Systems/Assignments/SOM/somtoolbox/../som-exercise-1/data/4.Different_initial_neighborhood/2.Too_large_SOM/2.Large_Radius/./satimage_largesom_large_rad.unit
+$URL_TEMPLATE_VECTOR /Users/ilirosmanaj/Desktop/Google Drive/Data Science/11. Self-Organizing Systems/Assignments/SOM/somtoolbox/../som-exercise-1/data/4.Different_initial_neighborhood/2.Too_large_SOM/2.Large_Radius/data/satimage.tv
+$URL_DATA_WINNER_MAPPING /Users/ilirosmanaj/Desktop/Google Drive/Data Science/11. Self-Organizing Systems/Assignments/SOM/somtoolbox/../som-exercise-1/data/4.Different_initial_neighborhood/2.Too_large_SOM/2.Large_Radius/./satimage_largesom_large_rad.dwm
+$URL_CLASS_INFO 
+$URL_LABELS 
+$METRIC at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+$LAYER_REVISION $Revision: 4300 $
+$DESCRIPTION 
+$AVAILABLE_VIS 
+$DATA_TYPE unknown
+$DATA_DIM 

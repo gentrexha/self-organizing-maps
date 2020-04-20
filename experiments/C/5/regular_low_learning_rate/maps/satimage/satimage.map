@@ -1,0 +1,37 @@
+$TYPE som
+$GRID_TOPOLOGY planar
+$GRID_LAYOUT rectangular
+$XDIM 26
+$YDIM 26
+$ZDIM 1
+$VEC_DIM 36
+$STORAGE_DATE 12/3/18 2:45 PM
+$TRAINING_TIME 
+$LEARNRATE_TYPE exponential
+$LEARNRATE_INIT 0.001
+$NEIGHBORHOOD_TYPE exponential
+$NEIGHBORHOOD_INIT 12.0
+$RAND_INIT 17
+$ITERATIONS_TOTAL 32150
+$NR_TRAINVEC_TOTAL 6430
+$ADAPTIVE_COORDINATES_THRESHOLD 
+$VEC_NORMALIZED false
+$QUANTERROR_MAP <error receiving value: Quality measure with name mqe not found.>
+$QUANTERROR_VEC <error receiving value: Quality measure with name mqe not found.>
+$URL_TRAINING_VEC .\satimage.vec
+$URL_TRAINING_VEC_DESCR 
+$URL_WEIGHT_VEC .\.\maps\satimage\satimage.wgt
+$URL_QUANTERR_MAP 
+$URL_MAPPED_INPUT_VEC 
+$URL_MAPPED_INPUT_VEC_DESCR 
+$URL_UNIT_DESCR .\.\maps\satimage\satimage.unit
+$URL_TEMPLATE_VECTOR .\satimage.tv
+$URL_DATA_WINNER_MAPPING .\.\maps\satimage\satimage.dwm
+$URL_CLASS_INFO 
+$URL_LABELS 
+$METRIC at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+$LAYER_REVISION $Revision: 4300 $
+$DESCRIPTION 
+$AVAILABLE_VIS 
+$DATA_TYPE unknown
+$DATA_DIM 
